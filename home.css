@@ -313,7 +313,7 @@ nav button:hover::before {
 
 /* main */
 section {
-    background-image: url(https://zoodrug.az/image/1.png);
+    background-image: url(/img/bg1.png);
     background-repeat: no-repeat;
     background-size: cover;
 }

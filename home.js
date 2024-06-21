@@ -1,7 +1,7 @@
 const goods = [
     {
         name: "Kitten Сухой Корм Для Котят 4-12 Мес",
-        photo: "/img/Royal Canin Kitten Dry Cat Food.jpg",
+        photo: "/img/products/Royal Canin Kitten Dry Cat Food.jpg",
         brand: "Royal Canin",
         price: "19.00",
         discount: "0",
@@ -12,7 +12,7 @@ const goods = [
     },
     {
         name: "Mother & Babycat Сухой Корм Для Беременных И Кормящих Кошек И Котят",
-        photo: "/img/Royal Canin Mother and Babycat Dry Cat Food.jpg",
+        photo: "/img/products/Royal Canin Mother and Babycat Dry Cat Food.jpg",
         brand: "Royal Canin",
         price: "19.00",
         discount: "0",
@@ -23,7 +23,7 @@ const goods = [
     },
     {
         name: "Сухой Корм Для Кошек От 1 Года",
-        photo: "/img/Royal Canin-SC365D.jpg",
+        photo: "/img/products/Royal Canin-SC365D.jpg",
         brand: "Royal Canin",
         price: "15.00",
         discount: "0",
@@ -34,7 +34,7 @@ const goods = [
     },
     {
         name: "Instinctive Влажный Корм Для Взрослых Кошек, Кусочки В Желе, 85 Г",
-        photo: "/img/RC_Instinctive in jelly.png",
+        photo: "/img/products/RC_Instinctive in jelly.png",
         brand: "Royal Canin",
         price: "3.50",
         discount: "0",
@@ -45,7 +45,7 @@ const goods = [
     },
     {
         name: "Royal Canin Gastrointestinal Fibre Response Feline Ветеринарная Диета Для Кошек",
-        photo: "/img/Royal Canin Gastrointestinal Fibre Response Feline Vet Diet Dry Cat Food.jpg",
+        photo: "/img/products/Royal Canin Gastrointestinal Fibre Response Feline Vet Diet Dry Cat Food.jpg",
         brand: "Royal Canin",
         price: "25.00",
         discount: "0",
@@ -56,7 +56,7 @@ const goods = [
     },
     {
         name: "Giant Adult Сухой Корм Для Взрослых Собак Очень Крупных Пород",
-        photo: "/img/RC_Giant Adult.png",
+        photo: "/img/products/RC_Giant Adult.png",
         brand: "Royal Canin",
         price: "12.50",
         discount: "0",
@@ -67,7 +67,7 @@ const goods = [
     },
     {
         name: "Labrador Retriever Adult Сухой Корм Для Собак Породы Лабрадор-Ретривер",
-        photo: "/img/K_Labrador Retriver.png",
+        photo: "/img/products/K_Labrador Retriver.png",
         brand: "Royal Canin",
         price: "15.00",
         discount: "0",
@@ -78,7 +78,7 @@ const goods = [
     },
     {
         name: "Medium Adult Сухой Корм Для Взрослых Собак Средних Пород",
-        photo: "/img/I_Medium Adult.png",
+        photo: "/img/products/I_Medium Adult.png",
         brand: "Royal Canin",
         price: "13.00",
         discount: "0",
@@ -89,7 +89,7 @@ const goods = [
     },
     {
         name: "Mini Adult Сухой Корм Для Взрослых Собак Мелких Пород, От 10 Мес",
-        photo: "/img/I_Mini Adult.png",
+        photo: "/img/products/I_Mini Adult.png",
         brand: "Royal Canin",
         price: "13.00",
         discount: "0",
@@ -100,7 +100,7 @@ const goods = [
     },
     {
         name: "Expert Ликвидатор Пятен И Запаха Для Кроликов, Грызунов И Птиц, 200 Мл",
-        photo: "/img/priuckosh.jpg",
+        photo: "/img/products/priuckosh.jpg",
         brand: "MR. FRESH EXPERT",
         price: "8.40",
         discount: "0",
@@ -111,7 +111,7 @@ const goods = [
     },
     {
         name: "Plus Adult Hign Energy Сухой Корм Для Взрослых Собак Высокая Энергия, С Говядиной",
-        photo: "/img/Reflex-Plus-Adult-High-Energy-Dry-Dog-Food-with-Beef.jpg",
+        photo: "/img/products/Reflex-Plus-Adult-High-Energy-Dry-Dog-Food-with-Beef.jpg",
         brand: "Reflex",
         price: "7.90",
         discount: "0",
@@ -122,7 +122,7 @@ const goods = [
     },
     {
         name: "Adult Plus Medium & Large Сухой Корм, Для Взрослых Собак Средних И Крупных Пород, C Ягненком И Рисом",
-        photo: "/img/Reflex-Plus-Adult Medium-Large-Breeds-Dry-Dog-Food-with-Lamb-Rice-1000x1000.jpg",
+        photo: "/img/products/Reflex-Plus-Adult Medium-Large-Breeds-Dry-Dog-Food-with-Lamb-Rice-1000x1000.jpg",
         brand: "Reflex",
         price: "7.90",
         discount: "0",
@@ -133,7 +133,7 @@ const goods = [
     },
     {
         name: "Mini Adult Сухой Корм, Для Взрослых Собак Мелких Пород, Беззерновой, С Ягненком",
-        photo: "/img/ImageRequest-2030-1707x2048-1000x1000.jpg",
+        photo: "/img/products/ImageRequest-2030-1707x2048-1000x1000.jpg",
         brand: "Brit Care",
         price: "17.20",
         discount: "0",
@@ -144,7 +144,7 @@ const goods = [
     },
     {
         name: "Mini Puppy Сухой Корм Для Щенков Мелких Пород, Беззерновой, C Ягненком",
-        photo: "/img/packshot-puppy-mini-shn17-1000x1000.png",
+        photo: "/img/products/packshot-puppy-mini-shn17-1000x1000.jpg",
         brand: "Brit Care",
         price: "20.00",
         discount: "0",
@@ -155,8 +155,8 @@ const goods = [
     },
     {
         name: "Kitten Сухой Корм, Для Котят И Кормящих Кошек",
-        photo: "/img/kitten-natures-protection-new-800x800-1000x1000.jpg",
-        brand: "Nature's Protection",
+        photo: "/img/products/kitten-natures-protection-new-800x800-1000x1000.jpg",
+        brand: "NATURES PROTECTION",
         price: "16.00",
         discount: "0",
         packaging: "кг",
@@ -166,7 +166,7 @@ const goods = [
     },
     {
         name: "Сухой Корм Для Собак, С Говядиной, Курицей И Овощами",
-        photo: "/img/Chappi-Dry-Dog-Food-Beef-Chicken-Vegetables-1000x1000.jpg",
+        photo: "/img/products/Chappi-Dry-Dog-Food-Beef-Chicken-Vegetables-1000x1000.jpg",
         brand: "Chappi",
         price: "4.30",
         discount: "0",
@@ -177,7 +177,7 @@ const goods = [
     },
     {
         name: "ХОЛИСТИК (70% мяса) GRANDORF SINGLE GRAIN KITTEN LAMB & TURKEY",
-        photo: "https://zoodrug.az/images/products/88812fc5-99ed-4320-a614-1b6c15fb66ec.jpg",
+        photo: "/img/products/88812fc5-99ed-4320-a614-1b6c15fb66ec.jpg",
         brand: "GRANDORF",
         price: "31.00",
         discount: "0",
@@ -188,7 +188,7 @@ const goods = [
     },
     {
         name: "ХОЛИСТИК (70% мяса) GRANDORF CAT 4 MEAT & RICE INDOOR",
-        photo: "https://zoodrug.az/images/products/69dea80c-6098-42f5-853c-e41e42a5e09b.jpg",
+        photo: "/img/products/69dea80c-6098-42f5-853c-e41e42a5e09b.jpg",
         brand: "GRANDORF",
         price: "31.00",
         discount: "0",
@@ -199,7 +199,7 @@ const goods = [
     },
     {
         name: "Сухой корм Monge Cat Sterilised для взрослых кастрированных котов и стерилизованных кошек.",
-        photo: "https://zoodrug.az/images/products/51b86f61-c529-4b04-ab53-079cbe9bdee2.jpg",
+        photo: "/img/products/51b86f61-c529-4b04-ab53-079cbe9bdee2.jpg",
         brand: "MONGE",
         price: "14.00",
         discount: "0",
@@ -210,7 +210,7 @@ const goods = [
     },
     {
         name: "Сухой корм Monge Puppy&Junior для щенков всех пород со вкусом лосося и риса.",
-        photo: "https://zoodrug.az/images/products/470bfe56-3005-4e2d-ab5b-44f9502c8670.jpg",
+        photo: "/img/products/470bfe56-3005-4e2d-ab5b-44f9502c8670.jpg",
         brand: "MONGE",
         price: "14.00",
         discount: "0",
@@ -221,7 +221,7 @@ const goods = [
     },
     {
         name: "Качели-арка TRIXIE для птиц. Размер: 10 х 22 см.",
-        photo: "https://zoodrug.az/images/products/abcaa95e-98f2-49d8-b6e5-f0f9cce4d1bc.jpg",
+        photo: "/img/products/abcaa95e-98f2-49d8-b6e5-f0f9cce4d1bc.jpg",
         brand: "TRIXIE",
         price: "5.00",
         discount: "0",
@@ -232,7 +232,7 @@ const goods = [
     },
     {
         name: "Корм для хомячков.",
-        photo: "https://zoodrug.az/images/products/a4481ee3-ed15-463a-b97f-726d03c5da4a.jpg",
+        photo: "/img/products/c3de1a314ffc0095b9d16fe23ae9ee0f-1000x1000.png",
         brand: "Little One",
         price: "4.80",
         discount: "0",
@@ -242,19 +242,19 @@ const goods = [
         about: "Полнорационный корм с добавлением витаминов и минеральных веществ. Разнообразный состав включает в себя зерна, семена, орехи и редкие плоды. Разработан с учетом специфических потребностей хомячков и не содержит острых компонентов, которые могут повредить нежные щеки питомцев. Комплекс цинка и биотина для блестящей шерсти и здоровой кожи питомца. Добавленный экстракт юкки нейтрализует неприятные запахи Сбалансированный состав обеспечит высокую питательность и усваиваемость корма."
     },
     {
-        name: "Корм для кроликов.",
-        photo: "https://zoodrug.az/images/products/c0eaae9e-b34b-4b43-9257-9fc290917a00.jpg",
+        name: "c3de1a314ffc0095b9d16fe23ae9ee0f-1000x1000.",
+        photo: "/img/products/a7fca2027c09f7052084e991e3490be1-1000x1000.png",
         brand: "Little One",
         price: "4.80",
         discount: "0",
         packaging: "шт",
         type: "rodents",
         category: "",
-        about: "Полнорационный корм, содержащий комплекс белков, жиров, углеводов, минеральных веществ и витаминов. Разработан с учетом специфических потребностей кроликов и отличается высоким содержанием клетчатки, необходимой для правильного пищеварения. Состав корма обогащен сушеными овощами, плющеными бобами и плодами редких растений. Корм для кроликов содержит витаминно–минеральный комплекс, содержит фруктоолигосахариды – натуральные пребиотики для комфортного пищеварения, комплекс цинка и биотина для здоровой кожи и блестящей шерсти. Экстракт юкки предотвращает образование неприятного запаха."
+        about: "Little One полноценный корм с добавлением витаминов и минеральных веществ. Содержит повышенное количество витамина С, необходимого для здоровья морских свинок. Разнообразный состав, включающий травяные гранулы, воздушные зерна, семена, овощи и редкие плоды."
     },
     {
         name: "Корма для рыб Pro Energy универсальный Чипсы 12 гр.",
-        photo: "https://zoodrug.az/images/products/d3af4ee1-20ce-4c18-adb4-74c6bce6605b.jpg",
+        photo: "/img/products/d3af4ee1-20ce-4c18-adb4-74c6bce6605b.jpg",
         brand: "Tetra",
         price: "3.50",
         discount: "0",
@@ -265,7 +265,7 @@ const goods = [
     },
     {
         name: "Min Flakes Корма для рыб универсальный хлопья 12 гр.",
-        photo: "https://zoodrug.az/images/products/1aeb9237-386c-4865-8d04-0d85b7c588a3.jpg",
+        photo: "/img/products/1aeb9237-386c-4865-8d04-0d85b7c588a3.jpg",
         brand: "Tetra",
         price: "3.50",
         discount: "0",
@@ -279,53 +279,63 @@ const goods = [
 const brandsList = [
     {
         name: "CHAPPI",
-        photo: "https://zoodrug.az/images/brands/175bad2c-9d31-4e8a-a1f2-5ae433ef5817.jpg",
+        photo: "/img/brands/chappi.jpg",
         info: "- принадлежит американской компании Mars Incorporated. Однако корм для собак, выпускаемый под этой маркой, изготавливается в России на производственных мощностях, принадлежащих компании Mars. В состав входят злаки, мясо и субпродукты, отборные овощи, питательные масла, жиры и полезные травы, которые благотворно влияют на работу почек и желудочно-кишечного тракта. Также «Чаппи» содержит витамины А, D, Е и группы В, которые улучшают состояние шерсти и кожи, укрепляют иммунитет и помогают защищать организм от негативных воздействий окружающей среды. Консервы «Чаппи» — это питательная еда для взрослых собак, которая приготовлена из натуральных ингредиентов. Их можно давать в качестве самостоятельного блюда или смешивать с сухим кормом или кашами. В каталоге консервы «Чаппи» представлены в следующих видах упаковки: в жестяных банках объемом 400 г, а также в паучах массой 100 г."
     },
     {
         name: "GRANDORF",
-        photo: "https://zoodrug.az/images/brands/c8b8137e-b1ab-44fc-9e79-5d5d6fabdf34.jpg",
+        photo: "/img/brands/grandorf.jpg",
         info: "— это корма Бельгийской марки. Качественный рацион для кошек и собак, который относится к классу холистик. Это полноценное и сбалансированное питание, восполняющее энергетические затраты питомца. Подходит для аллергиков, регулярно получает положительные отзывы от заводчиков, ветеринаров и владельцев животных. Сухие корма GRANDORF выпускаются в Бельгии. Консервы сходят с итальянских конвейеров — этим объясняется бескомпромиссное качество продукта. Основной упор здесь сделан на качестве. Производитель не закладывает большие маркетинговые затраты в себестоимость продукта, что положительно отражается на стоимости."
     },
     {
         name: "MR. FRESH EXPERT",
-        photo: "https://zoodrug.az/images/brands/dbd4e480-9487-471a-a5c9-192a263682e5.jpg",
+        photo: "/img/brands/fresh-expert.jpg",
         info: "– серия современных средств по уходу за домашними животными. Составы разработаны компанией Neoterica GmbH (Германия). Средства Mr.Fresh помогут Вам приучить Ваших любимцев к порядку и содержать дом в чистоте, не прибегая к насилию. Специальные составы: Входящие в состав энзимы разлагают запах и пятна на молекулярном уровне, тем самым устраняют, а не маскируют проблему. Цена и качество. Изготовлены по современным европейским технологиям в России, что позволяет не переплачивать за их высокое качество. Безопасность. Не содержат хлора, фтора и других химически агрессивных компонентов."
     },
     {
         name: "MONGE",
-        photo: "https://zoodrug.az/images/brands/9fba1ad8-df78-417e-8ab7-a65d40f7b9b8.jpg",
+        photo: "/img/brands/monge.jpg",
         info: "- итальянская компания, которая производит качественные сухие и влажные корма для собак и кошек. Их рецептура разработана на основе результатов исследований и инноваций в сфере создания питания для домашних животных. Специалисты компании тесно сотрудничают с профессорами европейских университетов, где открыты факультеты ветеринарной медицины. Ученых привлекают в качестве независимых консультантов, это позволяет постоянно улучшать рецептуру и делать корма Monge еще более полезными."
     },
     {
-        name: "NATURE'S PROTECTION",
-        photo: "https://zoodrug.az/images/brands/5a49ce3e-2805-4d24-b9a2-f4870ee23183.jpg",
+        name: "NATURES PROTECTION",
+        photo: "/img/brands/natures.jpg",
         info: "– сухой и влажный корм высочайшего качества класса Super Premium для кошек и собак. Nature’sProtection -  это новинка в питании домашних животных из природы. NATURE’S PROTECTION мир – это более миллиона преданных питомцев из более чем 50 стран мира, победами и историями успеха которых мы с радостью делимся. В своей работе команда NATURE’S PROTECTION - постоянно сталкивается c поиском решений трудных задач. Для них важно создать и усовершенствовать разработки в области диетологии нового поколения, которые основаны на эффективности и оценке ведущих заводчиков. Лучшие специалисты по вопросам питания и признанные ветеринары помогают им создавать видение лучшего мира для питомцев. NATURE’S PROTECTION SUPERIOR CARE - это специализированный функциональный полнорационный сухой корм Super Premium класса для собак и кошек с особыми потребностями."
     },
     {
         name: "ROYAL CANIN",
-        photo: "https://zoodrug.az/images/brands/2297c30e-86aa-4105-9e9d-8a5fc2684f44.jpg",
+        photo: "/img/brands/2297c30e-86aa-4105-9e9d-8a5fc2684f44.jpg",
         info: "— французский производитель кормов для кошек и собак, с 2002 года принадлежащий подразделению компании Mars, Incorporated «Masterfood».  Фирма «Royal Canin» была основана в 1967 году в местечке Гард (Франция). Нынче, главный офис размещается в городе Эмарг (Франция). Компания «Royal Canin» имеет представительства в разных странах: США, Аргентине, Бразилии, Германии, России и Канаде. Компания «Royal Canin» также известна своими разработками в области сбалансированного питания кошек и собак, основанными на производстве кормов для животных с различными особенностями: пожилой возраст, длинная шерсть, уход за кожей, образ жизни (подвижность)."
     },
     {
         name: "REFLEX",
-        photo: "https://zoodrug.az/images/brands/f23b5426-373f-4a63-ac57-40fb993d9312.jpg",
+        photo: "/img/brands/f23b5426-373f-4a63-ac57-40fb993d9312.jpg",
         info: "- ведущий производитель кормов в Турции. Была основана в 2009 году в партнерстве с Tavas Pet и Sera Pet, авторитетными компаниями группы с долгой и успешной историей, работающей в более чем шести тысячах точек продаж в секторе кормов для домашних животных.Компания, которая продолжает расти с быстрым ускорением, осуществляет производство с годовой мощностью 150 тысяч тонн на общей площади 40 тысяч квадратных метров.Как семья Lider Pet Food, компания переписывает, разрабатывает и делится рецептом счастья для ваших пушистых друзей с 2009 года."
     },
     {
         name: "TRIXIE",
-        photo: "https://zoodrug.az/images/brands/3ff9a13f-f34f-4086-9d4b-8b8bb9170465.jpg",
+        photo: "/img/brands/3ff9a13f-f34f-4086-9d4b-8b8bb9170465.jpg",
         info: "- производитель качественных зоо-товаров для животных. Немецкая компания TRIXIE Heimtierbedarf GmbH & Co KG была основана в 1974 г., и с тех пор, вот уже более 40 лет, домашние животные неизменно остаются в центре внимания этой компании. Интерес и любовь к животным и их владельцам помогают бренду непрерывно развиваться. Широкий диапазон продуктов TRIXIE экспортируется более чем в 60 стран. Инновационные продукты, современные технологии, ориентированный на потребности клиентов сервис - это лишь некоторые из факторов успеха TRIXIE."
     },
     {
         name: "ZOODRUG",
-        photo: "https://zoodrug.az/images/brands/99695dc3-1551-458f-9496-68a1321be410.jpg",
+        photo: "/img/brands/99695dc3-1551-458f-9496-68a1321be410.jpg",
         info: "- наша миссия, предоставить вам и вашим любимым питомцам высокое качество сервиса, ассортимент и низкие цены в нашем зоомагазине. Наш коллектив молодых и энергичных специалистов, которые всегда будут рады ответить на ваши вопросы и пожелания. С помощью наших товаров сделайте жизнь любимого животного долгой, счастливой и яркой."
     },
     {
-        name: "BRIT",
-        photo: "https://zoodrug.az/images/brands/25dbe7da-fd84-4e8a-8cf0-0d33925d95c1.jpg",
+        name: "BRIT CARE",
+        photo: "/img/brands/25dbe7da-fd84-4e8a-8cf0-0d33925d95c1.jpg",
         info: "— это сбалансированный рацион, разработанный при участии ведущих ветеринаров и диетологов. В их рецептуру входят натуральные, легкоусвояемые ингредиенты, которые проходят специальную обработку, позволяющую сохранить максимум витаминов и микроэлементов. В каталоге представлены корма BRIT для щенков, беременных и кормящих сук, кошек и котят, взрослых собак мелких, средних и крупных пород, питомцев, страдающих от пищевой аллергии, с чувствительным пищеварением, а также для пожилых животных."
+    },
+    {
+        name: "LITTLE ONE",
+        photo: "/img/brands/littleOne.jpg",
+        info: "— принадлежит НПФ Биофармтокс (Mealberry Group), созданной в 1989 году при НИИ Экспериментальной медицины. В настоящее время НПФ Биофармтокс — самостоятельная компания, научные интересы которой охватывают области фармакологии человека и животных, генной инженерии, биотехнологии. Компания Mealberry Group занимается разработкой и производством качественной продукции для домашних животных уже 20 лет. Продукция разрабатывается группой ветеринаров и биологов в тесном сотрудничестве с ведущими заводчиками животных. Сегодня Mealberry Group является динамично развивающейся международной компанией с производственными мощностями в Германии и России."
+    },
+    {
+        name: "TETRA",
+        photo: "/img/brands/c3d4db30-3cca-4948-9a12-20205b09ddef.jpg",
+        info: "— Корма немецкого бренда Tetra популярны среди аквариумистов во всем мире. Их рецептура разработана с учетом специфических потребностей различных видов рыб."
     },
 ]
 
