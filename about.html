@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="about.css">
+    <title>Lapka/О нас</title>
+    <link rel="icon" href="https://www.clker.com/cliparts/D/P/x/B/S/H/orange-paw-print-hi.png" type="image/icon type">
+</head>
+
+<body>
+    <header class="container d-flex justify-content-between align-items-center p-4 top-bar">
+        <a class="cl-dorange" href="/home.html"><i class="fa-solid fa-paw"></i>Lapka</a>
+        <form class="d-flex w-50">
+            <input class="form-control me-2 border-muted" type="search" placeholder="Поиск...">
+            <button class="btn bg-orange text-white" type="submit">Поиск</button>
+        </form>
+        <div>
+            <i class="fa-solid open-favorites fa-heart ms-3 fs-2 cl-dorange position-relative"><input type="button" value="0" class="favorite-quantity rounded-circle border"></i>
+            
+            <i class="fa-solid open-cart fa-cart-shopping ms-3 fs-2 cl-dorange position-relative"><input type="button" value="0" class="cart-quantity rounded-circle border"></i>
+            
+            <i class="fa-solid fa-user ms-3 fs-2 cl-dorange"></i>
+        </div>
+    </header>
+    <div class="header-fix bg p-2">
+        <div class="container d-flex justify-content-around align-items-center">
+            <div class="sol d-flex justify-content-center align-items-center">
+                <div class="nav-item dropdown">
+                    <a class="nav-link fs-1 me-5" href="" role="button" data-bs-toggle="dropdown"><i
+                            class="fa-solid fa-bars text-white"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/home.html">Главная</a></li>
+                        <li><a class="dropdown-item" href="/goods.html">Товары</a></li>
+                        <li><a class="dropdown-item" href="">О нас</a></li>
+                        
+                        <li><a class="dropdown-item" href="#contacts">Контакты</a></li>
+                </div>
+                <form class="d-flex search-p">
+                    <input class="border border-muted rounded me-2" type="search" placeholder="Поиск">
+                    <button class="btn bg-orange text-white" type="submit">Поиск</button>
+                </form>
+            </div>
+            <a href="/home.html" class="text-white h2 fw-bold"><i class="fa-solid fa-paw"></i>Lapka</a>
+            <div class="sag text-center">
+                <i class="fa-solid open-favorites fa-heart ms-5 fs-2 text-white"></i>
+                <i class="fa-solid open-cart fa-cart-shopping ms-5 fs-2 text-white"></i>
+                <i class="fa-solid fa-user ms-5 fs-2 text-white"></i>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg bg py-2">
+        <div class="container">
+            <!-- <button class="navbar-toggler" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button> -->
+            <div class="collapse navbar-collapse d-flex justify-content-center fs-5">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item px-3">
+                        <a class="nav-link text-white" aria-current="page" href="/home.html">Главная</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link text-white" href="/goods.html">Товары</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link text-white" href="">О нас</a>
+                    </li>
+                    <!-- <li class="nav-item px-3">
+                        <a class="nav-link text-white" href="/delivery.html">Доставка и оплата</a>
+                    </li> -->
+                    <li class="nav-item px-3">
+                        <a class="nav-link text-white" href="#contacts">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="py-5">
+        <div class="mx-7 my-5">
+            <div class="about-ust d-flex">
+                <div class="about-txt">
+                    <h4>О компании | Интернет-зоомагазин Lapka.az</h4>
+                    <h4>Мы в ответе за тех, кого Вы приручили!</h4>
+                    <p class="text-muted">Все питомцы — от маленькой рыбки до гигантской собаки — нуждаются в ласке,
+                        заботе и внимании. Кто
+                        бы ни был на Вашем попечении — крохотное существо или большой, серьезный зверь, — магазин
+                        зоотоваров Lapka.az поможет Вам позаботиться о нем.</p>
+                    <p class="text-muted">С помощью наших товаров сделайте жизнь любимого животного долгой, счастливой и
+                        яркой.</p>
+                </div>
+                <div class="about-img">
+                    <img class="w-100" src="https://zoodrug.az/images/about/6f3d451c-45fd-47f0-a5a9-0761188969da.png"
+                        alt="">
+                </div>
+            </div>
+        </div>
+        <div class="mx-7 my-4">
+            <div class="row">
+                <div class="feature col-xl-3">
+                    <div class="icon">
+                        <i class="fa-solid fa-paw"></i>
+                    </div>
+                    <h3>У нас очень много товаров!</h3>
+                    <div class="content" title="У нас очень много товаров!">
+                        <h3>У нас очень много товаров!</h3>
+                        <p>Вы хотите, чтобы Ваш питомец вкусно и правильно питался, не скучал, был активен, весел и
+                            здоров? Или, может, у него взыскательный вкус? Зоомаркет ZOODRUG.AZ представляет Вашему
+                            вниманию широчайший выбор зоотоваров: от кормов и ветеринарных препаратов до шампуней,
+                            одежды, аксессуаров, домиков и игрушек. Мы усердно работаем для того, чтобы покупки
+                            приносили радость Вам и были полезны Вашему питомцу. Звоните!</p>
+                    </div>
+                </div>
+                <div class="feature col-xl-3">
+                    <div class="icon">
+                        <i class="fa-solid fa-paw"></i>
+                    </div>
+                    <h3>Загляните к нам! У нас интересно!</h3>
+                    <div class="content" title="Загляните к нам! У нас интересно!">
+                        <h3>Загляните к нам! У нас интересно!</h3>
+                        <p>Прогресс не стоит на месте, производители зоотоваров всегда предлагают что-нибудь новенькое.
+                            Мы также стараемся не отставать, активно расширяем ассортимент, пополняем его интересными
+                            новинками. Подпишитесь на рассылку, чтобы быть в курсе самых свежих, интересных и полезных
+                            новостей!</p>
+                    </div>
+                </div>
+                <div class="feature col-xl-3">
+                    <div class="icon">
+                        <i class="fa-solid fa-paw"></i>
+                    </div>
+                    <h3>Ваши питомцы будут довольны!</h3>
+                    <div class="content" title="Ваши питомцы будут довольны!">
+                        <h3>Ваши питомцы будут довольны!</h3>
+                        <p>Зоотовары отличного качества — ключ к здоровой, полноценной и счастливый жизни любого
+                            животного. Мы понимаем, насколько это большая ответственность, поэтому тщательно следим за
+                            качеством товаров. Вниманию наших покупателей предлагаются только те бренды, которые
+                            подтверждены всеми необходимыми сертификатами.</p>
+                    </div>
+                </div>
+                <div class="feature col-xl-3">
+                    <div class="icon">
+                        <i class="fa-solid fa-paw"></i>
+                    </div>
+                    <h3>Цены в нашем магазине вас приятно удивят!</h3>
+                    <div class="content" title="Цены в нашем магазине вас приятно удивят!">
+                        <h3>Цены в нашем магазине вас приятно удивят!</h3>
+                        <p>Мы очень хотим, чтобы Вашим домашним животным жилось как можно лучше, поэтому стараемся
+                            максимально снижать расценки. Мы работаем напрямую с производителями, и это позволяет нам
+                            избежать лишних наценок на товары, а нашим покупателям — делать покупки высочайшего
+                            качества.</p>
+                    </div>
+                </div>
+                <div class="feature col-xl-3">
+                    <div class="icon">
+                        <i class="fa-solid fa-paw"></i>
+                    </div>
+                    <h3>Постоянные скидки! Заманчивые акции!</h3>
+                    <div class="content" title="Постоянные скидки! Заманчивые акции!">
+                        <h3>Постоянные скидки! Заманчивые акции!</h3>
+                        <p>Мы стараемся как можно чаще радовать наших покупателей акциями, скидками и подарками.
+                            Подпишитесь на рассылку ZOODRUG.AZ — и покупать в нашем магазине станет еще выгоднее и
+                            интереснее. Приобретайте больше товаров по максимально выгодной цене!</p>
+                    </div>
+                </div>
+                <div class="feature col-xl-3">
+                    <div class="icon">
+                        <i class="fa-solid fa-paw"></i>
+                    </div>
+                    <h3>Вежливость и профессионализм — это главное!</h3>
+                    <div class="content" title="Вежливость и профессионализм — это главное!">
+                        <h3>Вежливость и профессионализм — это главное!</h3>
+                        <p>Мы работаем для вас уже долгое время и уделяем большое внимание качеству обслуживания наших
+                            клиентов. Все сотрудники ZOODRUG.AZ проходят обязательное обучение: они вежливы,
+                            внимательны, профессионально подготовлены и тактичны. Наша цель — сделать Ваш шоппинг
+                            полезным и приятным. Оставайтесь с ZOODRUG.AZ — и мы не разочаруем вас!</p>
+                    </div>
+                </div>
+                <div class="feature col-xl-3">
+                    <div class="icon">
+                        <i class="fa-solid fa-paw"></i>
+                    </div>
+                    <h3>Заказывать товары в Lapka.az — удобно и легко!</h3>
+                    <div class="content" title="Заказывать товары в Lapka.az — удобно и легко!">
+                        <h3>Заказывать товары в Lapka.az — удобно и легко!</h3>
+                        <p>Начните оформлять заказы в нашем магазине, и Вы увидите, как это легко и просто сделать. Мы
+                            ценим каждого нашего клиента и хотим, чтобы покупки вызывали у вас как можно больше
+                            положительных эмоций. На Ваш выбор — множество разных способов оформления заказа, а наши
+                            консультанты всегда готовы помочь Вам подобрать именно тот товар, который подходит конкретно
+                            Вашему питомцу.</p>
+                    </div>
+                </div>
+                <div class="feature col-xl-3">
+                    <div class="icon">
+                        <i class="fa-solid fa-paw"></i>
+                    </div>
+                    <h3>Мы примем Ваш заказ очень быстро!</h3>
+                    <div class="content" title="Мы примем Ваш заказ очень быстро!">
+                        <h3>Мы примем Ваш заказ очень быстро!</h3>
+                        <p>Мы ценим Ваше время и усердно работаем над качеством обработки Ваших заказов. Ежедневно к нам
+                            обращаются клиенты , большие объемы заказов для нас — норма. Именно поэтому мы разработали
+                            такую систему приема и обработки Вашего заказа, которая не только исключает ошибки, но и
+                            экономит Ваше время.</p>
+                    </div>
+                </div>
+                <div class="feature col-xl-3">
+                    <div class="icon">
+                        <i class="fa-solid fa-paw"></i>
+                    </div>
+                    <h3>Мы всегда на связи!</h3>
+                    <div class="content" title="Мы всегда на связи!">
+                        <h3>Мы всегда на связи!</h3>
+                        <p>Мы заботимся о своих клиентах, поэтому готовы ответить на любые Ваши вопросы. К Вашим услугам
+                            консультации специалистов. Все сотрудники ZOODRUG.AZ не только любят животных, но и обладают
+                            достаточными знаниями, чтобы подсказать Вам, какой лучше выбрать корм, ветеринарный
+                            препарат, домик, аксессуар или игрушку.</p>
+                    </div>
+                </div>
+                <div class="feature col-xl-3">
+                    <div class="icon">
+                        <i class="fa-solid fa-paw"></i>
+                    </div>
+                    <h3>Накормим Ваше любимое животное даже в выходные!</h3>
+                    <div class="content" title="Накормим Ваше любимое животное даже в выходные!">
+                        <h3>Накормим Ваше любимое животное даже в выходные!</h3>
+                        <p>Мы не можем допустить, чтобы Ваши любимцы голодали. Поэтому курьерская служба работает
+                            всегда, независимо от того, какой это день недели. Закажите товар в ZOODRUG.AZ — и он будет
+                            доставлен в тот день, когда это удобно именно вам!</p>
+                    </div>
+                </div>
+                <div class="feature col-xl-3">
+                    <div class="icon">
+                        <i class="fa-solid fa-paw"></i>
+                    </div>
+                    <h3>Доставка заказов по всему Азербайджану</h3>
+                    <div class="content" title="Доставка заказов по всему Азербайджану">
+                        <h3>Доставка заказов по всему Азербайджану</h3>
+                        <p>Доставка наших товаров возможна в широком географическом диапазоне: Каждая доставка по почте
+                            будет рассмотрена индивидуально.</p>
+                    </div>
+                </div>
+                <div class="feature col-xl-3">
+                    <div class="icon">
+                        <i class="fa-solid fa-paw"></i>
+                    </div>
+                    <h3>Доставим Ваш заказ без задержек!</h3>
+                    <div class="content" title="Доставим Ваш заказ без задержек!">
+                        <h3>Доставим Ваш заказ без задержек!</h3>
+                        <p>У нашего магазина есть собственный склад, мы не везем товары с посторонних складов, поэтому
+                            Ваш заказ будет доставлен вовремя и без задержек.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <footer class="pt-5" id="contacts">
+        <div class="top container pb-5">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div>
+                        <h3 class="fs-5 fw-bold">Lapka</h3>
+                        <p><i class="fa-solid fa-info cl-orange me-2"></i><a href="">О компании</a></li>
+                        </p>
+                        <p><i class="fa fa-phone cl-orange me-2"></i><span>1903</span></p>
+                        <p><i class="fa-regular fa-envelope cl-orange me-2"></i><span>info@lapka.shop</span></p>
+                        <p><i class="fa-regular fa-clock cl-orange me-2"></i><span>Часы работы: 10:00 - 19:00</span></p>
+                    </div>
+                </div>
+                <div class="col-lg-4 d-flex">
+                    <div class="">
+                        <h3 class="fs-5">Мой аккаунт</h3>
+                        <ul>
+                            <li><a href="">Мои заказы</a></li>
+                            <li><a href="">История заказов</a></li>
+                            <li><a href="">Список желаний</a></li>
+                            <li><a href="">Мои бонусы</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div>
+                        <h3 class="fs-5">Подпишитесь на обновления</h3>
+                        <p>Зарегистрируйте свой электронный адрес для получения новостей и специальных
+                            предложений.</p>
+                        <div class="d-flex mb-4">
+                            <input type="email" placeholder="Ваш email...">
+                            <button type="submit" name="submit"><span></span>Подписаться</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="fs-5">Мы в социальных сетях</h3>
+                        <div class="ft-icon d-flex">
+                            <a href="" target="_blank"><i class="fa-brands fa-facebook-f fs-5 text-muted"></i></a>
+                            <a href="" target="_blank"><i class="fa-brands fa-instagram fs-5 text-muted"></i></a>
+                            <a href="" target="_blank"><i class="fa-brands fa-youtube fs-5 text-muted"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom text-white">
+            <div class="container">
+                <div class="container-items d-flex align-items-center justify-content-between">
+                    <div class="w-25 container-item">
+                        <p class="m-0">© 2024 <span>Lapka</span>. Все права защищены. </p>
+                    </div>
+                    <div class="d-flex justify-content-center container-item">
+                        <a href=""><img class="footer-img"
+                                src="https://biopet.shop/image/catalog/footer/payment-biota.png" alt="imgpayment"></a>
+                        <a href=""><img class="footer-img" src="https://biopet.shop/image/delivery.png"
+                                alt="Cash on Delivery"></a>
+                        <div>
+                            <a href="https://play.google.com/store/apps/"><img class="footer-img"
+                                    src="https://biopet.shop/image/g-play.png" alt="Available on Google Play"></a>
+                            <a href="https://www.apple.com/app-store/"><img class="footer-img"
+                                    src="https://biopet.shop/image/apple-st.png" alt="Available on Google Play"></a>
+                        </div>
+                    </div>
+                    <div class="w-25 container-item text-end ">
+                        <p class="m-0">Created by: Tagi Bagirov</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="about.js"></script>
+</body>
+
+</html>

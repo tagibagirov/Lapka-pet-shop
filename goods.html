@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="goods.css">
+    <title>Lapka/Товары</title>
+    <link rel="icon" href="https://www.clker.com/cliparts/D/P/x/B/S/H/orange-paw-print-hi.png" type="image/icon type">
+
+</head>
+
+<body>
+    <div class="brands-info">
+        <div class="item1">
+            
+        </div>
+    </div>
+    <div class="info">
+        <div class="item">
+
+        </div>
+    </div>
+    <div class="favorites">
+        <div class="item">
+            <div class="ust d-flex justify-content-between align-items-center">
+                <h4 class="h2 cl-dorange">Избранные</h4>
+                <i class="fa-regular fa-circle-xmark cl-dorange fs-2"></i>
+            </div>
+            <div class="alt">
+
+            </div>
+        </div>
+    </div>
+    <div class="cart">
+        <div class="item">
+            <div class="ust d-flex justify-content-between align-items-center">
+                <h4 class="h2 cl-dorange">Корзина</h4>
+                <i class="fa-regular fa-circle-xmark cl-dorange fs-2"></i>
+            </div>
+            <div class="alt">
+
+            </div>
+            <div class="price-div">
+                <p class="m-0 fs-3">Итог: <span class="total-price h3 text-danger"></span></p>
+                <button class="btn bg-orange btn-lg  text-white price-button">Оформить заказ</button>
+            </div>
+        </div>
+    </div>
+    <header class="container d-flex justify-content-between align-items-center p-4 top-bar">
+        <a class="cl-dorange" href="/home.html"><i class="fa-solid fa-paw"></i>Lapka</a>
+        <div class="d-flex w-50 search">
+            <input class="form-control me-2 border-muted" type="search" placeholder="Поиск...">
+            <button class="btn bg-orange text-white" onclick="search(this)">Поиск</button>
+        </div>
+        <div>
+            <i class="fa-solid open-favorites fa-heart ms-3 fs-2 cl-dorange position-relative"><input type="button" value="0" class="favorite-quantity rounded-circle border"></i>
+            
+            <i class="fa-solid open-cart fa-cart-shopping ms-3 fs-2 cl-dorange position-relative"><input type="button" value="0" class="cart-quantity rounded-circle border"></i>
+            
+            <i class="fa-solid fa-user ms-3 fs-2 cl-dorange"></i>
+        </div>
+    </header>
+    <div class="header-fix bg p-2">
+        <div class="container d-flex justify-content-around align-items-center">
+            <div class="sol d-flex justify-content-center align-items-center">
+                <div class="nav-item dropdown">
+                    <a class="nav-link fs-1 me-5" href="" role="button" data-bs-toggle="dropdown"><i
+                            class="fa-solid fa-bars text-white"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/home.html">Главная</a></li>
+                        <li><a class="dropdown-item" href="">Товары</a></li>
+                        <li><a class="dropdown-item" href="/about.html">О нас</a></li>
+                        <li><a class="dropdown-item" href="#contacts">Контакты</a></li>
+                </div>
+                <div class="d-flex search-p search">
+                    <input class="border border-muted rounded me-2" type="search" placeholder="Поиск">
+                    <button class="btn bg-orange text-white" onclick="search(this)">Поиск</button>
+                </div>
+            </div>
+            <a href="/home.html" class="text-white h2 fw-bold"><i class="fa-solid fa-paw"></i>Lapka</a>
+            <div class="sag text-center">
+                <i class="fa-solid open-favorites fa-heart ms-5 fs-2 text-white"></i>
+                <i class="fa-solid open-cart fa-cart-shopping ms-5 fs-2 text-white"></i>
+                <i class="fa-solid fa-user ms-5 fs-2 text-white"></i>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg bg py-2">
+        <div class="container">
+            <div class="collapse navbar-collapse d-flex justify-content-center fs-5">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item px-3">
+                        <a class="nav-link text-white" aria-current="page" href="/home.html">Главная</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link text-white" href="">Товары</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link text-white" href="/about.html">О нас</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link text-white" href="#contacts">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="menu bg-white pt-3 pb-2">
+        <div class="container">
+            <div class="row justify-content-around text-center">
+                <div class="col-lg-2 menu-click" category="dog">
+                    <img src="https://zoodrug.az/images/categories/39eaa4c7-62b7-4586-ac39-c345664e0e59.jpg"
+                        alt="Categroy" width="100" height="100">
+                    <h4 class="fs-5 mt-2">СОБАКИ</h4>
+                </div>
+                <div class="col-lg-2 menu-click" category="cat">
+                    <img src="https://zoodrug.az/images/categories/9bcc38ba-8e3c-4342-b3b3-319fc54c4d97.jpg"
+                        alt="Categroy" width="100" height="100">
+                    <h4 class="fs-5 mt-2">КОШКИ</h4>
+                </div>
+                <div class="col-lg-2 menu-click" category="bird">
+                    <img src="https://zoodrug.az/images/categories/3fe7b010-1f99-4519-8d1c-9908d08f8731.jpg"
+                        alt="Categroy" width="100" height="100">
+                    <h4 class="fs-5 mt-2">ПТИЦЫ</h4>
+                </div>
+                <div class="col-lg-2 menu-click" category="fish">
+                    <img src="https://zoodrug.az/images/categories/0725c420-783c-4ba3-abae-a8f21807618d.jpg"
+                        alt="Categroy" width="100" height="100">
+                    <h4 class="fs-5 mt-2">РЫБЫ</h4>
+                </div>
+                <div class="col-lg-2 menu-click" category="rodents">
+                    <img src="https://zoodrug.az/images/categories/534fb9b6-9296-4f5a-a8bf-66b02569f0ab.jpg"
+                        alt="Categroy" width="100" height="100">
+                    <h4 class="fs-5 mt-2">ГРЫЗУНЫ</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="py-5">
+        <!-- goods -->
+        <div class="container goods-div">
+            <div class="goods p-3 row justify-content-around">
+            </div>
+        </div>
+    </section>
+    <footer class="pt-5" id="contacts">
+        <div class="top container pb-5">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div>
+                        <h3 class="fs-5 fw-bold">Lapka</h3>
+                        <p><i class="fa-solid fa-info cl-orange me-2"></i><a href="/about.html">О компании</a></li>
+                        </p>
+                        <p><i class="fa fa-phone cl-orange me-2"></i><span>1903</span></p>
+                        <p><i class="fa-regular fa-envelope cl-orange me-2"></i><span>info@lapka.shop</span></p>
+                        <p><i class="fa-regular fa-clock cl-orange me-2"></i><span>Часы работы: 10:00 - 19:00</span></p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div>
+                        <h3 class="fs-5">Мой аккаунт</h3>
+                        <ul>
+                            <li><a href="">Мои заказы</a></li>
+                            <li><a href="">История заказов</a></li>
+                            <li><a href="">Список желаний</a></li>
+                            <li><a href="">Мои бонусы</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div>
+                        <h3 class="fs-5">Подпишитесь на обновления</h3>
+                        <p>Зарегистрируйте свой электронный адрес для получения новостей и специальных
+                            предложений.</p>
+                        <div class="d-flex mb-4">
+                            <input type="email" placeholder="Ваш email...">
+                            <button type="submit" name="submit"><span></span>Подписаться</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="fs-5">Мы в социальных сетях</h3>
+                        <div class="icon d-flex">
+                            <a href="" target="_blank"><i class="fa-brands fa-facebook-f fs-5 text-muted"></i></a>
+                            <a href="" target="_blank"><i class="fa-brands fa-instagram fs-5 text-muted"></i></a>
+                            <a href="" target="_blank"><i class="fa-brands fa-youtube fs-5 text-muted"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom text-white">
+            <div class="container">
+                <div class="container-items d-flex align-items-center justify-content-between">
+                    <div class="w-25 container-item">
+                        <p class="m-0">© 2024 <span>Lapka</span>. Все права защищены. </p>
+                    </div>
+                    <div class="d-flex justify-content-center container-item">
+                        <a href=""><img class="footer-img"
+                                src="https://biopet.shop/image/catalog/footer/payment-biota.png" alt="imgpayment"></a>
+                        <a href=""><img class="footer-img" src="https://biopet.shop/image/delivery.png"
+                                alt="Cash on Delivery"></a>
+                        <div>
+                            <a href="https://play.google.com/store/apps/"><img class="footer-img"
+                                    src="https://biopet.shop/image/g-play.png" alt="Available on Google Play"></a>
+                            <a href="https://www.apple.com/app-store/"><img class="footer-img"
+                                    src="https://biopet.shop/image/apple-st.png" alt="Available on Google Play"></a>
+                        </div>
+                    </div>
+                    <div class="w-25 container-item text-end">
+                        <p class="m-0">Created by: Tagi Bagirov</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="goods.js"></script>
+</body>
+
+</html>

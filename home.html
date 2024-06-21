@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="home.css">
+    <title>Lapka</title>
+    <link rel="icon" href="https://www.clker.com/cliparts/D/P/x/B/S/H/orange-paw-print-hi.png" type="image/icon type">
+</head>
+
+<body>
+    <div class="brands-info">
+        <div class="item1">
+            
+        </div>
+    </div>
+    <div class="info">
+        <div class="item">
+        </div>
+    </div>
+    <div class="favorites">
+        <div class="item">
+            <div class="ust d-flex justify-content-between align-items-center">
+                <h4 class="h2 cl-dorange">Избранные</h4>
+                <i class="fa-regular fa-circle-xmark cl-dorange fs-2"></i>
+            </div>
+            <div class="alt">
+
+            </div>
+        </div>
+    </div>
+    <div class="cart">
+        <div class="item">
+            <div class="ust d-flex justify-content-between align-items-center">
+                <h4 class="h2 cl-dorange">Корзина</h4>
+                <i class="fa-regular fa-circle-xmark cl-dorange fs-2"></i>
+            </div>
+            <div class="alt">
+
+            </div>
+            <div class="price-div">
+                <p class="m-0 fs-3">Итог: <span class="total-price h3 text-danger"></span></p>
+                <button class="btn bg-orange btn-lg  text-white price-button">Оформить заказ</button>
+            </div>
+        </div>
+    </div>
+    <header class="container d-flex justify-content-between align-items-center p-4 top-bar">
+        <a class="cl-dorange" href=""><i class="fa-solid fa-paw"></i>Lapka</a>
+        <form class="d-flex w-50">
+            <input class="form-control me-2 border-muted" type="search" placeholder="Поиск...">
+            <button class="btn bg-orange text-white" type="submit">Поиск</button>
+        </form>
+        <div>
+            <i class="fa-solid open-favorites fa-heart ms-3 fs-2 cl-dorange position-relative"><input type="button" value="0" class="favorite-quantity rounded-circle border"></i>
+            
+            <i class="fa-solid open-cart fa-cart-shopping ms-3 fs-2 cl-dorange position-relative"><input type="button" value="0" class="cart-quantity rounded-circle border"></i>
+            
+            <i class="fa-solid fa-user ms-3 fs-2 cl-dorange"></i>
+        </div>
+    </header>
+    <div class="header-fix bg p-2">
+        <div class="container d-flex justify-content-around align-items-center">
+            <div class="sol d-flex justify-content-center align-items-center">
+                <div class="nav-item dropdown">
+                    <a class="nav-link fs-1 me-5" href="" role="button" data-bs-toggle="dropdown"><i
+                            class="fa-solid fa-bars text-white"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="">Главная</a></li>
+                        <li><a class="dropdown-item" href="/goods.html">Товары</a></li>
+                        <li><a class="dropdown-item" href="/about.html">О нас</a></li>
+                        <li><button class="dropdown-item to-discount">Акции</button></li>
+                        <li><button class="dropdown-item to-brands">Бренды</button></li>
+                        <li><a class="dropdown-item" href="#contacts">Контакты</a></li>
+                </div>
+                <form class="d-flex search-p">
+                    <input class="border border-muted rounded me-2" type="search" placeholder="Поиск">
+                    <button class="btn bg-orange text-white" type="submit">Поиск</button>
+                </form>
+            </div>
+            <a href="" class="text-white h2 fw-bold"><i class="fa-solid fa-paw"></i>Lapka</a>
+            <div class="sag text-center">
+                <i class="fa-solid open-favorites fa-heart ms-5 fs-2 text-white"></i>
+                <i class="fa-solid open-cart fa-cart-shopping ms-5 fs-2 text-white"></i>
+                <i class="fa-solid fa-user ms-5 fs-2 text-white"></i>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg bg py-2">
+        <div class="container">
+            <button class="navbar-toggler" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex justify-content-center fs-5">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item px-3">
+                        <a class="nav-link text-white" aria-current="page" href="">Главная</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link text-white" href="/goods.html">Товары</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link text-white" href="/about.html">О нас</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <button class="nav-link text-white to-discount">Акции</button>
+                    </li>
+                    <li class="nav-item px-3">
+                        <button class="nav-link text-white to-brands">Бренды</button>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link text-white" href="#contacts">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="pb-5">
+        <!-- head slide -->
+        <div class="slide">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img
+                            src="https://zoodrug.az/resized/images/sliders/d1cac228-02be-4563-bd33-eac832ead0c5-1920--fit.webp?1704529053696"
+                            alt=""></div>
+                    <div class="swiper-slide"><img
+                            src="https://zoodrug.az/resized/images/sliders/b7387682-a948-4adb-9d13-e4cad8307e2a-1920--fit.webp?1704528857964"
+                            alt=""></div>
+                </div>
+            </div>
+        </div>
+        <!-- goods -->
+        <div class="container mt-5 popular">
+            <div class="title d-flex justify-content-between align-items-center px-5 pb-2 border-bottom">
+                <h2 class="title fs-5">Самые просматриваемые</h2>
+                <a href="/goods.html" class="text-dark fs-7 fw-bold">Смотреть Все <i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+            <div class="goods p-3 row justify-content-between">
+            </div>
+        </div>
+        </div>
+        <!-- discount -->
+        <div class="discount  container">
+            <div class="title d-flex justify-content-between px-5 pb-2 mb-3 border-bottom">
+                <h2 class="title fs-5">Акции</h2>
+            </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img
+                            src="https://6kcmxu3d7l.a.trbcdn.net/s3/petshop-ru-static/55eedbd5fe1277c9177caf156fe22aa88f2a1f39.png"
+                            alt=""></div>
+                    <div class="swiper-slide"><img
+                            src="https://6kcmxu3d7l.a.trbcdn.net/s3/petshop-ru-static/6f9e03a5f0cb44c237c6ea62dbaaa750ad112f1f.jpeg"
+                            alt=""></div>
+                    <div class="swiper-slide"><img
+                            src="https://6kcmxu3d7l.a.trbcdn.net/s3/petshop-ru-static/ab3580c709c376942a692216f4e0f7a818c07047.jpeg"
+                            alt=""></div>
+                    <div class="swiper-slide"><img
+                            src="https://6kcmxu3d7l.a.trbcdn.net/s3/petshop-ru-static/2f43dd728ac3122b9688226da5de5f30c0417b2b.jpeg"
+                            alt=""></div>
+                    <div class="swiper-slide"><img
+                            src="https://6kcmxu3d7l.a.trbcdn.net/s3/petshop-ru-static/e9127d968c8911d0c36b0459f1c5f863734dd5d5.png"
+                            alt=""></div>
+                    <div class="swiper-slide"><img
+                            src="https://6kcmxu3d7l.a.trbcdn.net/s3/petshop-ru-static/133271208b0f9a823c93bf4c357906fa9d33add7.png"
+                            alt=""></div>
+                    <div class="swiper-slide"><img
+                            src="https://6kcmxu3d7l.a.trbcdn.net/s3/petshop-ru-static/bcec90ae41ef7d193eac1d53c6791e8fa66bbea4.png"
+                            alt=""></div>
+                    <div class="swiper-slide"><img
+                            src="https://6kcmxu3d7l.a.trbcdn.net/s3/petshop-ru-static/09031e939d1305cdcf13a2eb99f22d21fbc0ca52.png"
+                            alt=""></div>
+                    <div class="swiper-slide"><img
+                            src="https://6kcmxu3d7l.a.trbcdn.net/s3/petshop-ru-static/7558f190317a3e51beaf3cf74c86d81a2e000d8b.png"
+                            alt=""></div>
+                </div>
+                <div class="swiper-button-prev rounded-circle"></div>
+                <div class="swiper-button-next rounded-circle"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <!-- brands -->
+        <div class="brands container my-5">
+            <div class="title d-flex justify-content-between px-5 pb-2 mb-3 border-bottom">
+                <h2 class="title fs-5">Бренды</h2>
+            </div>
+            <div class="my-4  py-3 border rounded bg-white br-light">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" onclick="showBrands('ROYAL CANIN')"><img
+                                src="https://zoodrug.az/resized/images/partners/3bccfb55-cb41-4c0d-ab59-fd8867812735--106-fit.webp"
+                                alt=""></div>
+                        <div class="swiper-slide" onclick="showBrands('GRANDORF')"><img
+                                src="https://zoodrug.az/resized/images/partners/272ea00f-3687-41d2-b2ec-09107d1e9ccd--106-fit.webp"
+                                alt=""></div>
+                        <div class="swiper-slide" onclick="showBrands('REFLEX')"><img
+                                src="https://zoodrug.az/resized/images/partners/b2687ce6-2cb0-4f9b-b156-dd7d6392a3ac--106-fit.webp"
+                                alt=""></div>
+                        <div class="swiper-slide" onclick="showBrands('BRIT')"><img
+                                src="https://zoodrug.az/resized/images/partners/dc8ffe67-a86b-4721-9097-b27aa224748c--106-fit.webp"
+                                alt=""></div>
+                        <div class="swiper-slide" onclick="showBrands('MONGE')"><img
+                                src="https://zoodrug.az/resized/images/partners/88a59b19-5113-420d-9373-5a8faa81b1d8--106-fit.webp"
+                                alt=""></div>
+                        <div class="swiper-slide" onclick="showBrands('TRIXIE')"><img
+                                src="https://zoodrug.az/resized/images/partners/66b4092b-4bf9-4b55-9c83-c793670b9345--106-fit.webp"
+                                alt=""></div>
+                        <div class="swiper-slide" onclick="showBrands('MR. FRESH EXPERT')"><img
+                                src="https://zoodrug.az/resized/images/partners/f96c0b5a-0f10-44f0-a073-32b78115e6c6--106-fit.webp"
+                                alt=""></div>
+                        <div class="swiper-slide" onclick="showBrands(`NATURE'S PROTECTION`)"><img
+                                src="https://zoodrug.az/resized/images/partners/f0d173f0-de2f-46dc-9b1c-94ca049395ed--106-fit.webp"
+                                alt=""></div>
+                        <div class="swiper-slide" onclick="showBrands('CHAPPI')"><img
+                                src="https://zoodrug.az/resized/images/partners/30320496-df09-46ac-b8c7-314fea20a1dd--106-fit.webp"
+                                alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="pt-5" id="contacts">
+        <div class="top container pb-5">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div>
+                        <h3 class="fs-5 fw-bold">Lapka</h3>
+                        <p><i class="fa-solid fa-info cl-orange me-2"></i><a href="/about.html">О компании</a></li>
+                        </p>
+                        <p><i class="fa fa-phone cl-orange me-2"></i><span>1903</span></p>
+                        <p><i class="fa-regular fa-envelope cl-orange me-2"></i><span>info@lapka.shop</span></p>
+                        <p><i class="fa-regular fa-clock cl-orange me-2"></i><span>Часы работы: 10:00 - 19:00</span></p>
+                    </div>
+                </div>
+                <div class="col-lg-4 d-flex">
+                    <div class="">
+                        <h3 class="fs-5">Мой аккаунт</h3>
+                        <ul>
+                            <li><a href="">Мои заказы</a></li>
+                            <li><a href="">История заказов</a></li>
+                            <li><a href="">Список желаний</a></li>
+                            <li><a href="">Мои бонусы</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div>
+                        <h3 class="fs-5">Подпишитесь на обновления</h3>
+                        <p>Зарегистрируйте свой электронный адрес для получения новостей и специальных
+                            предложений.</p>
+                        <div class="d-flex mb-4">
+                            <input type="email" placeholder="Ваш email...">
+                            <button type="submit" name="submit"><span></span>Подписаться</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="fs-5">Мы в социальных сетях</h3>
+                        <div class="icon d-flex">
+                            <a href="" target="_blank"><i class="fa-brands fa-facebook-f fs-5 text-muted"></i></a>
+                            <a href="" target="_blank"><i class="fa-brands fa-instagram fs-5 text-muted"></i></a>
+                            <a href="" target="_blank"><i class="fa-brands fa-youtube fs-5 text-muted"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom text-white">
+            <div class="container">
+                <div class="container-items d-flex align-items-center justify-content-between">
+                    <div class="w-25 container-item">
+                        <p class="m-0">© 2024 <span>Lapka</span>. Все права защищены. </p>
+                    </div>
+                    <div class="d-flex justify-content-center container-item">
+                        <a href=""><img class="footer-img"
+                                src="https://biopet.shop/image/catalog/footer/payment-biota.png" alt="imgpayment"></a>
+                        <a href=""><img class="footer-img" src="https://biopet.shop/image/delivery.png"
+                                alt="Cash on Delivery"></a>
+                        <div>
+                            <a href="https://play.google.com/store/apps/"><img class="footer-img"
+                                    src="https://biopet.shop/image/g-play.png" alt="Available on Google Play"></a>
+                            <a href="https://www.apple.com/app-store/"><img class="footer-img"
+                                    src="https://biopet.shop/image/apple-st.png" alt="Available on Google Play"></a>
+                        </div>
+                    </div>
+                    <div class="w-25 container-item text-end">
+                        <p class="m-0">Created by: Tagi Bagirov</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="home.js"></script>
+</body>
+
+</html>
