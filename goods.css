@@ -456,10 +456,11 @@ footer .bottom {
     .header-fix {
         position: fixed !important;
         display: block !important;
+        padding: 0 !important;
     }
 
     .header-fix .container {
-        padding: 0 40px !important;
+        padding: 9px 20px !important;
     }
 
     .header-fix .h2 {
@@ -520,7 +521,7 @@ footer .bottom {
 
     .sol .nav-link {
         font-size: 18px !important;
-        margin-right: 5px !important;
+        margin-right: 10px !important;
     }
 
     .dropdown-item {
@@ -531,17 +532,47 @@ footer .bottom {
         width: 30% !important;
     }
 
-    .img {
-        height: 100px !important;
+    .gds .img {
+        height: unset !important;
+    }
+    .gds .txt{
+        padding: 0 !important;
     }
 
-    .img img {
+    /* .img img {
         width: 100px !important;
-    }
+    } */
 
     .review {
-        height: 15px !important;
-        font-size: 8px !important;
+        height: unset !important;
+        margin-bottom: 0 !important;
+        font-size: 6px !important;
+    }
+    .info .review {
+        padding: 5px 0 10px !important;
+    }
+
+    .quantity-arena button {
+        width: unset !important;
+        height: unset !important;
+        padding: 0 7px !important;
+    }
+
+    .fa-add:before,
+    .fa-plus:before,
+    .fa-minus:before,
+    .product-quantity,
+    .quantity-arena .remove-cart i {
+        font-size: 10px !important;
+    }
+
+    .info-txt-ust .h1 {
+        font-size: 20px !important;
+    }
+
+    .gds .review p {
+        margin-left: 4px !important;
+        font-size: 9px !important;
     }
 
     .fs-7 {
@@ -553,14 +584,17 @@ footer .bottom {
     }
 
     .fv {
-        width: 25px !important;
-        height: 25px !important;
+        width: 17px !important;
+        height: 17px !important;
         top: 10px !important;
         right: 10px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .add-favorite {
-        font-size: 14px !important;
+        font-size: 10px !important;
     }
 
     .gds-info {
@@ -568,8 +602,10 @@ footer .bottom {
     }
 
     .gds span {
-        font-size: 14px !important;
+        display: flex;
+        font-size: 10px !important;
     }
+
 
     .favorites,
     .cart,
@@ -660,7 +696,7 @@ footer .bottom {
     }
 
     .top {
-        padding: 0 24px 24px !important;
+        padding-bottom: 24px !important;
     }
 
     footer .top a,

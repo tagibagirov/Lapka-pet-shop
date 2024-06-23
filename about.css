@@ -340,11 +340,13 @@ footer .bottom {
     .header-fix {
         position: fixed !important;
         display: block !important;
+        padding: 0 !important;
     }
 
     .header-fix .container {
-        padding: 0 40px !important;
+        padding: 9px 20px !important;
     }
+
 
     .header-fix .h2 {
         margin: 0 !important;
@@ -376,7 +378,7 @@ footer .bottom {
 
     .sol .nav-link {
         font-size: 18px !important;
-        margin-right: 5px !important;
+        margin-right: 10px !important;
     }
 
     .dropdown-item {
@@ -422,7 +424,7 @@ footer .bottom {
     }
 
     .top {
-        padding: 0 24px 24px !important;
+        padding-bottom: 24px !important;
     }
 
     footer .top a,
